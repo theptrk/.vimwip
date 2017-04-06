@@ -1,5 +1,9 @@
 " theptrk vimrc
 execute pathogen#infect()
+
+" "I consider factory settings to mean builtin plugins enagled vi
+" compatibility disabled" - Practical Vim
+set nocompatible
 filetype plugin indent on
 
 " move .vimrc to .vim folder to easy version control
@@ -28,10 +32,10 @@ set expandtab " On pressing tab, insert 4 spaces
 " NORMAL MODE
 " (:nnoremap) is the no remap version
 " http://stackoverflow.com/questions/3776117/what-is-the-difference-between-the-remap-noremap-nnoremap-and-vnoremap-mapping#
-:nnoremap <c-j> <c-q><c-j>
-:nnoremap <c-k> <c-q><c-k>
-:nnoremap <c-l> <c-q><c-l>
-:nnoremap <c-h> <c-q><c-h>
+:nnoremap <C-j> <C-w><C-j>
+:nnoremap <C-k> <C-w><C-k>
+:nnoremap <C-l> <C-w><C-l>
+:nnoremap <C-h> <C-w><C-h>
 
 set splitbelow " :sp opens new window from below
 set splitright " :vsp opens new window on the right
