@@ -1,4 +1,6 @@
 " theptrk vimrc
+execute pathogen#infect()
+filetype plugin indent on
 
 " move .vimrc to .vim folder to easy version control
 " create a soft link from .vim to .vimrc
@@ -9,6 +11,14 @@
 " sets the swp files in one directory
 " $HOME/.vimrc
 :set directory=$HOME/.vim/swapfiles//
+
+syntax on
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+let g:solarized_contrast="normal"
+let g:solarized_visibility="normal"
+colorscheme solarized
 
 set tabstop=4 "show existing tab with 4 spaces width
 set shiftwidth=4 " when indenting with '>', use this many spaces
