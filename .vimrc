@@ -27,9 +27,9 @@ colorscheme solarized
 " show line numbers
 set number
 
-set tabstop=4 "show existing tab with 4 spaces width
-set shiftwidth=4 " when indenting with '>', use this many spaces
-set expandtab " On pressing tab, insert 4 spaces
+set expandtab     " on pressing tab insert spaces
+set tabstop=2     " the amount of spaces to insert when tab is pressed
+set shiftwidth=2  " when indenting with '>', use this many spaces
 " https://www.cs.oberlin.edu/~kuperman/help/vim/indenting.html
 
 " NORMAL MODE
