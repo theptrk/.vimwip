@@ -24,6 +24,9 @@ let g:solarized_contrast="normal"
 let g:solarized_visibility="normal"
 colorscheme solarized
 
+" show line numbers
+set number
+
 set tabstop=4 "show existing tab with 4 spaces width
 set shiftwidth=4 " when indenting with '>', use this many spaces
 set expandtab " On pressing tab, insert 4 spaces
